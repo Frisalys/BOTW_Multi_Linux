@@ -1,0 +1,272 @@
+AddItem<AddItemEntry>:
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: GetDemo.bfevfl}
+BindEvent<BindSword>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
+ChangeFlag<booleanFlagEntry>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
+ChangeFlag<integerFlagEntry>: {disable_event_start_interval: true, is_timeline: false, mode: Seamless}
+GameRomCamera<GameRomCamera_EachFrame>:
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: AddItem.bfevfl}
+  - {file: ChangeFlag.bfevfl}
+  - {file: GetDemo.bfevfl}
+Jugador10<Jugador10_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador11<Jugador11_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador12<Jugador12_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador13<Jugador13_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador14<Jugador14_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador15<Jugador15_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador16<Jugador16_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador17<Jugador17_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador18<Jugador18_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador19<Jugador19_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador1<Jugador1_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador20<Jugador20_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador21<Jugador21_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador22<Jugador22_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador23<Jugador23_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador24<Jugador24_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador25<Jugador25_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador26<Jugador26_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador27<Jugador27_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador28<Jugador28_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador29<Jugador29_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador2<Jugador2_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador30<Jugador30_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador31<Jugador31_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador32<Jugador32_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador3<Jugador3_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador4<Jugador4_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador5<Jugador5_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador6<Jugador6_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador7<Jugador7_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador8<Jugador8_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Jugador9<Jugador9_EachFrame>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: MultiplayerEvent.bfevfl}
+Multiplayer<Multiplayer_EachFrame>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador10_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador11_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador12_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador13_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador14_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador15_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador16_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador17_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador18_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador19_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador1_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador20_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador21_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador22_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador23_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador24_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador25_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador26_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador27_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador28_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador29_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador2_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador30_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador31_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador32_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador3_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador4_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador5_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador6_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador7_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador8_Update>: {is_timeline: false, mode: Seamless}
+MultiplayerEvent<Jugador9_Update>: {is_timeline: false, mode: Seamless}

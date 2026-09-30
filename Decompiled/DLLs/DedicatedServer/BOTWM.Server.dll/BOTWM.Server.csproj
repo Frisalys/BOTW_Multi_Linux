@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>BOTWM.Server</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Collections">
+      <HintPath>../../../../../../../opt/ilspy/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>../../../../../../../opt/ilspy/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>../../../../../../../opt/ilspy/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>../../../../../../../opt/ilspy/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>../../../../../../../opt/ilspy/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>../../../../../../../opt/ilspy/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>../../../../../../../opt/ilspy/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>../../../../../../../opt/ilspy/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>../../../../../../../opt/ilspy/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="MadMilkman.Ini">
+      <HintPath>MadMilkman.Ini.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>../../../../../../../opt/ilspy/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>../../../../../../../opt/ilspy/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="Breath_of_the_Wild_Multiplayer.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Breath_of_the_Wild_Multiplayer" xmlns:properties="clr-namespace:Breath_of_the_Wild_Multiplayer.Properties" xmlns:viewModel="clr-namespace:Breath_of_the_Wild_Multiplayer.MVVM.ViewModel" FrameworkElement.Height="668.8" FrameworkElement.Width="1188" Window.WindowStyle="None" Window.WindowStartupLocation="CenterScreen" Window.ResizeMode="CanMinimize" Control.Background="#00FFFFFF" Window.AllowsTransparency="True" Window.Title="Breath of the Wild Multiplayer">
+  <FrameworkElement.DataContext>
+    <viewModel:MainViewModel />
+  </FrameworkElement.DataContext>
+  <Border CornerRadius="10, 10, 5, 5" BorderBrush="#FFF5F5F5" BorderThickness="1">
+    <Border.Background>
+      <ImageBrush x:Name="BackgroundImageBrush">
+        <ImageBrush.ImageSource>
+          <Binding Source="{Static properties:Settings.Default}" Path="actualBackground" NotifyOnTargetUpdated="True" />
+        </ImageBrush.ImageSource>
+        <!--Unknown connection ID: 1-->
+      </ImageBrush>
+    </Border.Background>
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="30" />
+        <RowDefinition />
+      </Grid.RowDefinitions>
+      <Border Grid.RowSpan="2" Background="#FF000000" UIElement.Opacity="0" CornerRadius="10, 10, 5, 5">
+        <FrameworkElement.Style>
+          <Style>
+            <Style.TargetType>
+              <x:TypeExtension>
+                <Ctor xmlns="https://github.com/icsharpcode/ILSpy">Border</Ctor>
+              </x:TypeExtension>
+            </Style.TargetType>
+            <Style.Triggers>
+              <DataTrigger Value="True">
+                <DataTrigger.Binding>
+                  <Binding>
+                    <Ctor xmlns="https://github.com/icsharpcode/ILSpy">changingBackground</Ctor>
+                  </Binding>
+                </DataTrigger.Binding>
+                <Setter Property="Border.Background" Value="#FF000000" />
+                <TriggerBase.EnterActions>
+                  <BeginStoryboard>
+                    <Storyboard Timeline.AutoReverse="True">
+                      <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Timeline.Duration="0:0:0.31" />
+                    </Storyboard>
+                  </BeginStoryboard>
+                </TriggerBase.EnterActions>
+              </DataTrigger>
+            </Style.Triggers>
+          </Style>
+        </FrameworkElement.Style>
+      </Border>
+      <Border CornerRadius="10, 10, 0, 0" Grid.Row="0">
+        <Border.Background>
+          <Binding>
+            <Ctor xmlns="https://github.com/icsharpcode/ILSpy">barColor</Ctor>
+          </Binding>
+        </Border.Background>
+        <StackPanel Orientation="Horizontal" FrameworkElement.HorizontalAlignment="Right">
+          <Button ContentControl.Content="-" FrameworkElement.Style="{StaticResource OtherButtons}">
+            <!--Unknown connection ID: 3-->
+          </Button>
+          <Button ContentControl.Content="x" FrameworkElement.Style="{StaticResource CloseButton}">
+            <!--Unknown connection ID: 4-->
+          </Button>
+        </StackPanel>
+        <!--Unknown connection ID: 2-->
+      </Border>
+      <Grid Row="1">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="70" />
+          <RowDefinition />
+          <RowDefinition Height="70" />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="2" FrameworkElement.HorizontalAlignment="Right" FrameworkElement.VerticalAlignment="Bottom" Control.FontFamily="Roboto" Control.FontStyle="Italic" Control.FontSize="16" Control.Foreground="#66C1C1C1" Panel.ZIndex="1">
+          <ContentControl.Content>
+            <Binding>
+              <Ctor xmlns="https://github.com/icsharpcode/ILSpy">appTitle</Ctor>
+            </Binding>
+          </ContentControl.Content>
+        </Label>
+        <Rectangle Grid.Row="1" Shape.Fill="#66414141" FrameworkElement.Style="{StaticResource backgroundMargin}" />
+        <Border Background="#CC1C1C1C" Grid.Row="0" />
+        <Border Background="#CC1C1C1C" Grid.Row="2" CornerRadius="0, 0, 5, 5" />
+        <StackPanel Grid.Row="0" Orientation="Horizontal" FrameworkElement.HorizontalAlignment="Center">
+          <Button FrameworkElement.Width="120">
+            <ButtonBase.Command>
+              <Binding>
+                <Ctor xmlns="https://github.com/icsharpcode/ILSpy">moveLeft</Ctor>
+              </Binding>
+            </ButtonBase.Command>
+            <FrameworkElement.Style>
+              <Style>
+                <Style.TargetType>
+                  <x:TypeExtension>
+                    <Ctor xmlns="https://github.com/icsharpcode/ILSpy">Button</Ctor>
+                  </x:TypeExtension>
+                </Style.TargetType>
+                <Setter Property="UIElement.Opacity" Value="0.3" />
+                <Setter Property="UIElement.IsEnabled" Value="False" />
+                <Setter Property="Control.Template">
+                  <Setter.Value>
+                    <ControlTemplate>
+                      <ControlTemplate.TargetType>
+                        <x:TypeExtension>
+                          <Ctor xmlns="https://github.com/icsharpcode/ILSpy">Button</Ctor>
+                        </x:TypeExtension>
+                      </ControlTemplate.TargetType>
+                      <Border Background="#00FFFFFF">
+                        <StackPanel>
+                          <Border FrameworkElement.Height="38">
+                            <Path FrameworkElement.Width="20" FrameworkElement.Height="20" Shape.Stretch="Fill" FrameworkElement.VerticalAlignment="Bottom" Shape.Stroke="#FFFFFFFF" Shape.Fill="#FFFFFFFF" Data="F1 M287.328,237.333 L319.344,255.818 L319.344,218.849 L287.328,237.333" />
+                          </Border>
+                          <Label FrameworkElement.Style="{StaticResource buttonLabelAnim}" Control.FontFamily="Roboto" Control.FontStyle="Italic" Control.FontSize="14" FrameworkElement.HorizontalAlignment="Center" Control.Foreground="#FFFFFFFF" FrameworkElement.Margin="0,1,0,10">
+                            <ContentControl.Content>
+                              <Binding>
+                                <Ctor xmlns="https://github.com/icsharpcode/ILSpy">leftWindow</Ctor>
+                              </Binding>
+                            </ContentControl.Content>
+                          </Label>
+                        </StackPanel>
+                      </Border>
+                    </ControlTemplate>
+                  </Setter.Value>
+                </Setter>
+                <Style.Triggers>
+                  <DataTrigger Value="True">
+                    <DataTrigger.Binding>
+                      <Binding>
+                        <Ctor xmlns="https://github.com/icsharpcode/ILSpy">buttonStatus[0]</Ctor>
+                      </Binding>
+                    </DataTrigger.Binding>
+                    <Setter Property="UIElement.Opacity" Value="1" />
+                    <Setter Property="UIElement.IsEnabled" Value="True" />
+                  </DataTrigger>
+                </Style.Triggers>
+              </Style>
+            </FrameworkElement.Style>
+          </Button>
+          <Grid>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="50" />
+              <RowDefinition />
+            </Grid.RowDefinitions>
+            <Label FrameworkElement.HorizontalAlignment="Center" FrameworkElement.VerticalAlignment="Bottom" Control.Foreground="#FFFFFFFF" Control.FontSize="30" Control.FontFamily="Roboto" Control.FontStyle="Italic" Control.FontWeight="Bold" FrameworkElement.Margin="0,5,0,0" FrameworkElement.Width="250" Control.HorizontalContentAlignment="Center" FrameworkElement.Style="{StaticResource labelAnim}">
+              <ContentControl.Content>
+                <Binding>
+                  <Ctor xmlns="https://github.com/icsharpcode/ILSpy">title</Ctor>
+                </Binding>
+              </ContentControl.Content>
+            </Label>
+            <StackPanel Grid.Row="1" Orientation="Horizontal" FrameworkElement.VerticalAlignment="Top" FrameworkElement.HorizontalAlignment="Center">
+              <Ellipse FrameworkElement.Width="5" FrameworkElement.Height="5" FrameworkElement.Margin="2,0,0,0">
+                <Shape.Fill>
+                  <Binding>
+                    <Ctor xmlns="https://github.com/icsharpcode/ILSpy">circleColors[0]</Ctor>
+                  </Binding>
+                </Shape.Fill>
+              </Ellipse>
+              <Ellipse FrameworkElement.Width="5" FrameworkElement.Height="5" FrameworkElement.Margin="2,0,0,0">
+                <Shape.Fill>
+                  <Binding>
+                    <Ctor xmlns="https://github.com/icsharpcode/ILSpy">circleColors[1]</Ctor>
+                  </Binding>
+                </Shape.Fill>
+              </Ellipse>
+            </StackPanel>
+          </Grid>
+          <Button FrameworkElement.Width="120">
+            <ButtonBase.Command>
+              <Binding>
+                <Ctor xmlns="https://github.com/icsharpcode/ILSpy">moveRight</Ctor>
+              </Binding>
+            </ButtonBase.Command>
+            <FrameworkElement.Style>
+              <Style>
+                <Style.TargetType>
+                  <x:TypeExtension>
+                    <Ctor xmlns="https://github.com/icsharpcode/ILSpy">Button</Ctor>
+                  </x:TypeExtension>
+                </Style.TargetType>
+                <Setter Property="UIElement.Opacity" Value="0.3" />
+                <Setter Property="UIElement.IsEnabled" Value="False" />
+                <Setter Property="Control.Template">
+                  <Setter.Value>
+                    <ControlTemplate>
+                      <ControlTemplate.TargetType>
+                        <x:TypeExtension>
+                          <Ctor xmlns="https://github.com/icsharpcode/ILSpy">Button</Ctor>
+                        </x:TypeExtension>
+                      </ControlTemplate.TargetType>
+                      <Border Background="#00FFFFFF">
+                        <StackPanel>
+                          <Border FrameworkElement.Height="38">
+                            <Path FrameworkElement.Width="20" FrameworkElement.Height="20" Shape.Stretch="Fill" FrameworkElement.VerticalAlignment="Bottom" Shape.Stroke="#FFFFFFFF" Shape.Fill="#FFFFFFFF" Data="F1 M319.344,237.333 L287.328,218.849 L287.328,255.818 L319.344,237.333" />
+                          </Border>
+                          <Label FrameworkElement.Style="{StaticResource buttonLabelAnim}" Control.FontFamily="Roboto" Control.FontStyle="Italic" Control.FontSize="14" FrameworkElement.HorizontalAlignment="Center" Control.Foreground="#FFFFFFFF" FrameworkElement.Margin="0,1,0,10">
+                            <ContentControl.Content>
+                              <Binding>
+                                <Ctor xmlns="https://github.com/icsharpcode/ILSpy">rightWindow</Ctor>
+                              </Binding>
+                            </ContentControl.Content>
+                          </Label>
+                        </StackPanel>
+                      </Border>
+                    </ControlTemplate>
+                  </Setter.Value>
+                </Setter>
+                <Style.Triggers>
+                  <DataTrigger Value="True">
+                    <DataTrigger.Binding>
+                      <Binding>
+                        <Ctor xmlns="https://github.com/icsharpcode/ILSpy">buttonStatus[1]</Ctor>
+                      </Binding>
+                    </DataTrigger.Binding>
+                    <Setter Property="UIElement.Opacity" Value="1" />
+                    <Setter Property="UIElement.IsEnabled" Value="True" />
+                  </DataTrigger>
+                </Style.Triggers>
+              </Style>
+            </FrameworkElement.Style>
+          </Button>
+        </StackPanel>
+        <ContentControl Grid.Row="1" FrameworkElement.Style="{StaticResource contentControlAnimations}">
+          <ContentControl.Content>
+            <Binding>
+              <Ctor xmlns="https://github.com/icsharpcode/ILSpy">currentView</Ctor>
+            </Binding>
+          </ContentControl.Content>
+        </ContentControl>
+      </Grid>
+      <Border Grid.Row="1" Background="#CC000000" CornerRadius="0, 0, 5, 5">
+        <ContentControl>
+          <ContentControl.Content>
+            <Binding>
+              <Ctor xmlns="https://github.com/icsharpcode/ILSpy">currentTopView</Ctor>
+            </Binding>
+          </ContentControl.Content>
+        </ContentControl>
+        <FrameworkElement.Style>
+          <Style>
+            <Style.TargetType>
+              <x:TypeExtension>
+                <Ctor xmlns="https://github.com/icsharpcode/ILSpy">Border</Ctor>
+              </x:TypeExtension>
+            </Style.TargetType>
+            <Setter Property="UIElement.Visibility" Value="Visible" />
+            <Style.Triggers>
+              <DataTrigger Value="false">
+                <DataTrigger.Binding>
+                  <Binding>
+                    <Ctor xmlns="https://github.com/icsharpcode/ILSpy">isTopView</Ctor>
+                  </Binding>
+                </DataTrigger.Binding>
+                <Setter Property="UIElement.Visibility" Value="Hidden" />
+              </DataTrigger>
+            </Style.Triggers>
+          </Style>
+        </FrameworkElement.Style>
+      </Border>
+    </Grid>
+  </Border>
+</Window>

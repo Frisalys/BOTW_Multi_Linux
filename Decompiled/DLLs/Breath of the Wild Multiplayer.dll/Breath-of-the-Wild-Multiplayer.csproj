@@ -1,0 +1,113 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Breath of the Wild Multiplayer</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Breath_of_the_Wild_Multiplayer.AppdataFiles.ArmorMapping.txt" />
+    <None Remove="Breath_of_the_Wild_Multiplayer.AppdataFiles.QuestFlags.txt" />
+    <None Remove="Breath_of_the_Wild_Multiplayer.AppdataFiles.QuestFlagsNames.txt" />
+    <None Remove="Breath_of_the_Wild_Multiplayer.AppdataFiles.WeaponDamages.txt" />
+    <EmbeddedResource Include="Breath_of_the_Wild_Multiplayer.AppdataFiles.ArmorMapping.txt" LogicalName="Breath_of_the_Wild_Multiplayer.AppdataFiles.ArmorMapping.txt" />
+    <EmbeddedResource Include="Breath_of_the_Wild_Multiplayer.AppdataFiles.QuestFlags.txt" LogicalName="Breath_of_the_Wild_Multiplayer.AppdataFiles.QuestFlags.txt" />
+    <EmbeddedResource Include="Breath_of_the_Wild_Multiplayer.AppdataFiles.QuestFlagsNames.txt" LogicalName="Breath_of_the_Wild_Multiplayer.AppdataFiles.QuestFlagsNames.txt" />
+    <EmbeddedResource Include="Breath_of_the_Wild_Multiplayer.AppdataFiles.WeaponDamages.txt" LogicalName="Breath_of_the_Wild_Multiplayer.AppdataFiles.WeaponDamages.txt" />
+    <ApplicationDefinition Remove="Breath_of_the_Wild_Multiplayer/App.xaml" />
+    <ApplicationDefinition Include="Breath_of_the_Wild_Multiplayer/App.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="app.xaml" />
+    <Page Remove="Breath_of_the_Wild_Multiplayer.MVVM.View/ChangeNameView.xaml" />
+    <Page Remove="Breath_of_the_Wild_Multiplayer.MVVM.View/ErrorMessageView.xaml" />
+    <Page Remove="Breath_of_the_Wild_Multiplayer.MVVM.View/ServerBrowser.xaml" />
+    <Page Remove="Breath_of_the_Wild_Multiplayer.MVVM.View/ServerEditorView.xaml" />
+    <Page Remove="Breath_of_the_Wild_Multiplayer.MVVM.View/serverInterfaceView.xaml" />
+    <Page Remove="Breath_of_the_Wild_Multiplayer.MVVM.View/SettingsPanelView.xaml" />
+    <Page Remove="Breath_of_the_Wild_Multiplayer/MainWindow.xaml" />
+    <Page Remove="theme/backgroundfade.xaml" />
+    <Page Remove="theme/images.xaml" />
+    <Page Remove="theme/serverbutton.xaml" />
+    <Page Remove="theme/settingsbuttons.xaml" />
+    <Page Remove="theme/titleanimations.xaml" />
+    <Page Remove="theme/toolbarbuttons.xaml" />
+    <Page Include="Breath_of_the_Wild_Multiplayer.MVVM.View/ChangeNameView.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="mvvm/view/changenameview.xaml" />
+    <Page Include="Breath_of_the_Wild_Multiplayer.MVVM.View/ErrorMessageView.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="mvvm/view/errormessageview.xaml" />
+    <Page Include="Breath_of_the_Wild_Multiplayer.MVVM.View/ServerBrowser.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="mvvm/view/serverbrowserview.xaml" />
+    <Page Include="Breath_of_the_Wild_Multiplayer.MVVM.View/ServerEditorView.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="mvvm/view/servereditorview.xaml" />
+    <Page Include="Breath_of_the_Wild_Multiplayer.MVVM.View/serverInterfaceView.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="mvvm/view/serverinterfaceview.xaml" />
+    <Page Include="Breath_of_the_Wild_Multiplayer.MVVM.View/SettingsPanelView.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="mvvm/view/settingspanelview.xaml" />
+    <Page Include="Breath_of_the_Wild_Multiplayer/MainWindow.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="mainwindow.xaml" />
+    <Page Include="theme/backgroundfade.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="theme/backgroundfade.xaml" />
+    <Page Include="theme/images.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="theme/images.xaml" />
+    <Page Include="theme/serverbutton.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="theme/serverbutton.xaml" />
+    <Page Include="theme/settingsbuttons.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="theme/settingsbuttons.xaml" />
+    <Page Include="theme/titleanimations.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="theme/titleanimations.xaml" />
+    <Page Include="theme/toolbarbuttons.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="theme/toolbarbuttons.xaml" />
+    <Resource Remove="images/addserver_icon.png" />
+    <Resource Remove="images/coloredlogo.png" />
+    <Resource Remove="images/directconnection_icon.png" />
+    <Resource Remove="images/mainwindowbackground.png" />
+    <Resource Remove="images/plus.png" />
+    <Resource Remove="images/refresh_icon.png" />
+    <Resource Include="images/addserver_icon.png" LogicalName="images/addserver_icon.png" />
+    <Resource Include="images/coloredlogo.png" LogicalName="images/coloredlogo.png" />
+    <Resource Include="images/directconnection_icon.png" LogicalName="images/directconnection_icon.png" />
+    <Resource Include="images/mainwindowbackground.png" LogicalName="images/mainwindowbackground.png" />
+    <Resource Include="images/plus.png" LogicalName="images/plus.png" />
+    <Resource Include="images/refresh_icon.png" LogicalName="images/refresh_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>../../../../../../../opt/ilspy/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>../../../../../../../opt/ilspy/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>../../../../../../../opt/ilspy/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebClient">
+      <HintPath>../../../../../../../opt/ilspy/System.Net.WebClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>../../../../../../../opt/ilspy/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>../../../../../../../opt/ilspy/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.ConfigurationManager" />
+    <Reference Include="System.Net.Primitives">
+      <HintPath>../../../../../../../opt/ilspy/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>../../../../../../../opt/ilspy/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>../../../../../../../opt/ilspy/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>../../../../../../../opt/ilspy/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>../../../../../../../opt/ilspy/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>../../../../../../../opt/ilspy/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>../../../../../../../opt/ilspy/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>../../../../../../../opt/ilspy/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

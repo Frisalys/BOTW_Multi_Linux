@@ -1,0 +1,14 @@
+{
+  "name": "BattleRaft",
+  "image": "",
+  "url": "",
+  "desc": "Floating raft to be used as platform for Battle Royale",
+  "version": "1.0.0",
+  "options": {},
+  "depends": [],
+  "showCompare": false,
+  "showConvert": false,
+  "platform": "wiiu",
+  "priority": 100,
+  "id": "QmF0dGxlUmFmdD09MS4wLjA="
+}

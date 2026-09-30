@@ -1,0 +1,14 @@
+{
+  "name": "Breath of the Wild Multiplayer",
+  "image": "",
+  "url": "",
+  "desc": "Explore Hyrule with Friends",
+  "version": "1.0.0",
+  "options": {},
+  "depends": [],
+  "showCompare": false,
+  "showConvert": false,
+  "platform": "wiiu",
+  "priority": 100,
+  "id": "QnJlYXRoIG9mIHRoZSBXaWxkIE11bHRpcGxheWVyPT0xLjAuMA=="
+}

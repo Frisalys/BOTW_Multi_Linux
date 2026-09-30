@@ -1,0 +1,693 @@
+{
+  "USen": {
+    "QuestMsg/QL_GameRomCamera.msyt": {
+      "QL_GameRomCamera_Active": {
+        "contents": []
+      },
+      "QL_GameRomCamera_Desc": {
+        "contents": [
+          {
+            "text": "Connected to: "
+          },
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "serverNameFlag"
+            }
+          },
+          {
+            "text": "\nPing: "
+          },
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 2,
+              "name": "serverPing"
+            }
+          },
+          {
+            "text": "\n\nMod created by:\n"
+          },
+          {
+            "control": {
+              "kind": "set_colour",
+              "colour": "blue"
+            }
+          },
+          {
+            "text": "AlexMangue and Sweet"
+          },
+          {
+            "control": {
+              "kind": "reset_colour"
+            }
+          },
+          {
+            "control": {
+              "kind": "set_colour",
+              "colour": "light_green1"
+            }
+          },
+          {
+            "text": "\nPointCrow [Bird]\n"
+          },
+          {
+            "control": {
+              "kind": "set_colour",
+              "colour": "red"
+            }
+          },
+          {
+            "text": "Peregrine [Mipha's Supervisor / Modelling]\nLynardKiller [Modelling]\nGreenLord [Reverse engineering]\nWaikuteru [Technical Consulting]\nCEObrainz [Technical Consulting]"
+          },
+          {
+            "control": {
+              "kind": "reset_colour"
+            }
+          }
+        ]
+      },
+      "QL_GameRomCamera_Finish": {
+        "contents": [
+          {
+            "text": "Cómo llegaste a aquí?"
+          }
+        ]
+      },
+      "QL_GameRomCamera_Name": {
+        "contents": [
+          {
+            "text": "Breath of the Wild Multiplayer"
+          }
+        ]
+      }
+    },
+    "QuestMsg/QL_BOTWMMessager.msyt": {
+      "QL_BOTWMMessager_Active": {
+        "contents": []
+      },
+      "QL_BOTWMMessager_Desc": {
+        "contents": [
+          {
+            "text": "Empty"
+          }
+        ]
+      },
+      "QL_BOTWMMessager_Finish": {
+        "contents": [
+          {
+            "text": "Empty"
+          }
+        ]
+      },
+      "QL_BOTWMMessager_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "MultiplayerMessage"
+            }
+          }
+        ]
+      }
+    },
+    "StaticMsg/LocationMarker.msyt": {
+      "Jugador1": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador1_Name"
+            }
+          }
+        ]
+      },
+      "Jugador10": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador10_Name"
+            }
+          }
+        ]
+      },
+      "Jugador11": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador11_Name"
+            }
+          }
+        ]
+      },
+      "Jugador12": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador12_Name"
+            }
+          }
+        ]
+      },
+      "Jugador13": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador13_Name"
+            }
+          }
+        ]
+      },
+      "Jugador14": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador14_Name"
+            }
+          }
+        ]
+      },
+      "Jugador15": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador15_Name"
+            }
+          }
+        ]
+      },
+      "Jugador16": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador16_Name"
+            }
+          }
+        ]
+      },
+      "Jugador17": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador17_Name"
+            }
+          }
+        ]
+      },
+      "Jugador18": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador18_Name"
+            }
+          }
+        ]
+      },
+      "Jugador19": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador19_Name"
+            }
+          }
+        ]
+      },
+      "Jugador2": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador2_Name"
+            }
+          }
+        ]
+      },
+      "Jugador20": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador20_Name"
+            }
+          }
+        ]
+      },
+      "Jugador21": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador21_Name"
+            }
+          }
+        ]
+      },
+      "Jugador22": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador22_Name"
+            }
+          }
+        ]
+      },
+      "Jugador23": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador23_Name"
+            }
+          }
+        ]
+      },
+      "Jugador24": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador24_Name"
+            }
+          }
+        ]
+      },
+      "Jugador25": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador25_Name"
+            }
+          }
+        ]
+      },
+      "Jugador26": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador26_Name"
+            }
+          }
+        ]
+      },
+      "Jugador27": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador27_Name"
+            }
+          }
+        ]
+      },
+      "Jugador28": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador28_Name"
+            }
+          }
+        ]
+      },
+      "Jugador29": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador29_Name"
+            }
+          }
+        ]
+      },
+      "Jugador3": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador3_Name"
+            }
+          }
+        ]
+      },
+      "Jugador30": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador30_Name"
+            }
+          }
+        ]
+      },
+      "Jugador31": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador31_Name"
+            }
+          }
+        ]
+      },
+      "Jugador32": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador32_Name"
+            }
+          }
+        ]
+      },
+      "Jugador4": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador4_Name"
+            }
+          }
+        ]
+      },
+      "Jugador5": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador5_Name"
+            }
+          }
+        ]
+      },
+      "Jugador6": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador6_Name"
+            }
+          }
+        ]
+      },
+      "Jugador7": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador7_Name"
+            }
+          }
+        ]
+      },
+      "Jugador8": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador8_Name"
+            }
+          }
+        ]
+      },
+      "Jugador9": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador9_Name"
+            }
+          }
+        ]
+      }
+    },
+    "LayoutMsg/SystemWindow_00.msyt": {
+      "0076": {
+        "contents": [
+          {
+            "text": "This game is compatible with the Toy-Con VR Goggles.\nDo you want to use them?"
+          }
+        ]
+      },
+      "0077": {
+        "contents": [
+          {
+            "text": "The game will start in standard mode.\nThe VR Goggles will not be used. Is that okay?"
+          }
+        ]
+      },
+      "0078": {
+        "contents": [
+          {
+            "text": "Use VR Goggles"
+          }
+        ]
+      },
+      "0079": {
+        "contents": [
+          {
+            "text": "Don't use VR Goggles"
+          }
+        ]
+      },
+      "0081": {
+        "contents": [
+          {
+            "text": "You can't use VR mode because of restrictions that have\nbeen set in Parental Controls. You can play in  standard\nmode or adjust Parental Controls in System Settings or\nthe Nintendo Switch Parental Controls app."
+          }
+        ]
+      },
+      "T_TextAdd_00": {
+        "contents": [
+          {
+            "text": "The following information should be checked by an adult:"
+          }
+        ]
+      },
+      "T_TextAdd_01": {
+        "contents": [
+          {
+            "text": "When using the Toy-Con VR Goggles..."
+          }
+        ]
+      },
+      "T_TextAdd_02": {
+        "contents": [
+          {
+            "text": "Only play while seated."
+          }
+        ]
+      },
+      "T_TextAdd_03": {
+        "contents": [
+          {
+            "text": "Be mindful of your surroundings and other people."
+          }
+        ]
+      },
+      "T_TextAdd_04": {
+        "contents": [
+          {
+            "text": "Make sure to take regular breaks."
+          }
+        ]
+      },
+      "T_TextAdd_05": {
+        "contents": [
+          {
+            "text": "Restrict the use of VR mode for children 6 and under."
+          }
+        ]
+      }
+    },
+    "ActorType/PlayerItem.msyt": {
+      "CustomRemoteSphere_Obj_Desc": {
+        "contents": [
+          {
+            "text": "ばくはつ爆発によるはかい破壊をもくてき目的とした\nこだい古代シーカーぞく族のぎじゅつ技術\nせっちご設置後 す好きなタイミングでばくはつ爆発させられる"
+          }
+        ]
+      },
+      "CustomRemoteSphere_Obj_MenuDesc": {
+        "contents": []
+      },
+      "CustomRemoteSphere_Obj_Name": {
+        "contents": [
+          {
+            "text": "Remote Bomb"
+          }
+        ]
+      },
+      "CustomRemoteSphere_Obj_RemoteBombBall2_Desc": {
+        "contents": []
+      },
+      "CustomRemoteSphere_Obj_RemoteBombBall2_MenuDesc": {
+        "contents": [
+          {
+            "text": "ばくはつ爆発によるはかい破壊をもくてき目的とした\nこだい古代シーカーぞく族のぎじゅつ技術\nばくはつ爆発のいりょく威力とそうてんそくど装填速度がじょうしょう上昇した"
+          }
+        ]
+      },
+      "CustomRemoteSphere_Obj_RemoteBombBall2_Name": {
+        "contents": [
+          {
+            "text": "Remote Bomb +"
+          }
+        ]
+      },
+      "CustomRemoteSphere_Obj_RemoteBombBall_Desc": {
+        "contents": []
+      },
+      "CustomRemoteSphere_Obj_RemoteBombBall_MenuDesc": {
+        "contents": [
+          {
+            "text": "Ancient Sheikah explosive technology.\nCan be detonated remotely to destroy\nobjects and damage enemies."
+          }
+        ]
+      },
+      "CustomRemoteSphere_Obj_RemoteBombBall_Name": {
+        "contents": [
+          {
+            "text": "Remote Bomb"
+          }
+        ]
+      },
+      "CustomRemoteSphere_Obj_RemoteBombCube2_Desc": {
+        "contents": []
+      },
+      "CustomRemoteSphere_Obj_RemoteBombCube2_MenuDesc": {
+        "contents": [
+          {
+            "text": "ばくはつ爆発によるはかい破壊をもくてき目的とした\nこだい古代シーカーぞく族のぎじゅつ技術\nばくはつ爆発のいりょく威力とそうてんそくど装填速度がじょうしょう上昇した"
+          }
+        ]
+      },
+      "CustomRemoteSphere_Obj_RemoteBombCube2_Name": {
+        "contents": [
+          {
+            "text": "Remote Bomb +"
+          }
+        ]
+      },
+      "CustomRemoteSphere_Obj_RemoteBombCube_Desc": {
+        "contents": []
+      },
+      "CustomRemoteSphere_Obj_RemoteBombCube_MenuDesc": {
+        "contents": [
+          {
+            "text": "Ancient Sheikah explosive technology.\nCan be detonated remotely to destroy\nobjects and damage enemies."
+          }
+        ]
+      },
+      "CustomRemoteSphere_Obj_RemoteBombCube_Name": {
+        "contents": [
+          {
+            "text": "Remote Bomb"
+          }
+        ]
+      },
+      "CustomRemoteSphere_Obj_RemoteBombLv2_Desc": {
+        "contents": [
+          {
+            "text": "ばくはつ爆発によるはかい破壊をもくてき目的とした\nこだい古代シーカーぞく族のぎじゅつ技術\nばくはつ爆発のいりょく威力とそうてんそくど装填速度がじょうしょう上昇した"
+          }
+        ]
+      },
+      "CustomRemoteSphere_Obj_RemoteBombLv2_MenuDesc": {
+        "contents": []
+      },
+      "CustomRemoteSphere_Obj_RemoteBombLv2_Name": {
+        "contents": [
+          {
+            "text": "Remote Bomb +"
+          }
+        ]
+      }
+    },
+    "LayoutMsg/MessageTipsRunTime_00.msyt": {
+      "0025": {
+        "contents": [
+          {
+            "text": "Remember to take breaks every\nonce in a while when using the\nVR Goggles."
+          }
+        ]
+      }
+    },
+    "LayoutMsg/OptionWindow_00.msyt": {
+      "0047": {
+        "contents": [
+          {
+            "text": "Toy-Con VR Goggles"
+          }
+        ]
+      },
+      "0048": {
+        "contents": [
+          {
+            "text": "Play using the VR Goggles."
+          }
+        ]
+      },
+      "0049": {
+        "contents": [
+          {
+            "text": "ON"
+          }
+        ]
+      },
+      "0050": {
+        "contents": [
+          {
+            "text": "OFF"
+          }
+        ]
+      }
+    }
+  }
+}

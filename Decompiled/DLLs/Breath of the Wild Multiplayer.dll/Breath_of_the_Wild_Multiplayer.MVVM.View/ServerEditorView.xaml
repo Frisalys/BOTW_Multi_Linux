@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="Breath_of_the_Wild_Multiplayer.MVVM.View.ServerEditorView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:Breath_of_the_Wild_Multiplayer.MVVM.View" xmlns:viewModel="clr-namespace:Breath_of_the_Wild_Multiplayer.MVVM.ViewModel" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <FrameworkElement.DataContext>
+    <viewModel:ServerEditorModel />
+  </FrameworkElement.DataContext>
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="40" />
+      <RowDefinition Height="40" />
+      <RowDefinition />
+      <RowDefinition />
+      <RowDefinition />
+      <RowDefinition />
+      <RowDefinition />
+      <RowDefinition Height="40" />
+    </Grid.RowDefinitions>
+    <Label Grid.Row="1" FrameworkElement.HorizontalAlignment="Center" FrameworkElement.VerticalAlignment="Center" Control.FontFamily="Roboto" Control.FontSize="26" Control.FontStyle="Italic" Control.Foreground="#FFFFFFFF">
+      <ContentControl.Content>
+        <Binding>
+          <Ctor xmlns="https://github.com/icsharpcode/ILSpy">Title</Ctor>
+        </Binding>
+      </ContentControl.Content>
+    </Label>
+    <TextBox Grid.Row="2" FrameworkElement.Style="{StaticResource modifiableTextBox}" Control.BorderBrush="#FFC4C6CB" FrameworkElement.Margin="250, 0, 250, 0">
+      <TextBox.Text>
+        <Binding>
+          <Ctor xmlns="https://github.com/icsharpcode/ILSpy">Name</Ctor>
+        </Binding>
+      </TextBox.Text>
+      <UIElement.IsEnabled>
+        <Binding>
+          <Ctor xmlns="https://github.com/icsharpcode/ILSpy">NameEnabled</Ctor>
+        </Binding>
+      </UIElement.IsEnabled>
+      <FrameworkElement.Tag>
+        <system:String xmlns:system="clr-namespace:System;assembly=System.Private.CoreLib">Server name</system:String>
+      </FrameworkElement.Tag>
+      <!--Unknown connection ID: 1-->
+    </TextBox>
+    <TextBox Grid.Row="3" FrameworkElement.Style="{StaticResource modifiableTextBox}" Control.BorderBrush="#FFC4C6CB" FrameworkElement.Margin="250, 0, 250, 0">
+      <TextBox.Text>
+        <Binding>
+          <Ctor xmlns="https://github.com/icsharpcode/ILSpy">IP</Ctor>
+        </Binding>
+      </TextBox.Text>
+      <FrameworkElement.Tag>
+        <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Server IP</String>
+      </FrameworkElement.Tag>
+      <!--Unknown connection ID: 2-->
+    </TextBox>
+    <TextBox Grid.Row="4" FrameworkElement.Style="{StaticResource modifiableTextBox}" Control.BorderBrush="#FFC4C6CB" FrameworkElement.Margin="250, 0, 250, 0">
+      <TextBox.Text>
+        <Binding>
+          <Ctor xmlns="https://github.com/icsharpcode/ILSpy">Port</Ctor>
+        </Binding>
+      </TextBox.Text>
+      <FrameworkElement.Tag>
+        <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Server port</String>
+      </FrameworkElement.Tag>
+      <!--Unknown connection ID: 3-->
+    </TextBox>
+    <TextBox Grid.Row="5" FrameworkElement.Style="{StaticResource modifiableTextBox}" Control.BorderBrush="#FFC4C6CB" FrameworkElement.Margin="250, 0, 250, 0">
+      <TextBox.Text>
+        <Binding>
+          <Ctor xmlns="https://github.com/icsharpcode/ILSpy">Password</Ctor>
+        </Binding>
+      </TextBox.Text>
+      <FrameworkElement.Tag>
+        <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Server password</String>
+      </FrameworkElement.Tag>
+    </TextBox>
+    <StackPanel Grid.Row="6" Orientation="Horizontal" FrameworkElement.HorizontalAlignment="Center" FrameworkElement.VerticalAlignment="Center">
+      <Button FrameworkElement.Width="135" ContentControl.Content="Confirm" Grid.Row="3" FrameworkElement.Margin="10" FrameworkElement.Style="{StaticResource ConnectToServerButton}">
+        <ButtonBase.Command>
+          <Binding>
+            <Ctor xmlns="https://github.com/icsharpcode/ILSpy">ConfirmClick</Ctor>
+          </Binding>
+        </ButtonBase.Command>
+        <UIElement.IsEnabled>
+          <Binding>
+            <Ctor xmlns="https://github.com/icsharpcode/ILSpy">ConfirmEnabled</Ctor>
+          </Binding>
+        </UIElement.IsEnabled>
+      </Button>
+      <Button FrameworkElement.Width="135" ContentControl.Content="Cancel" Grid.Row="3" FrameworkElement.Margin="10" FrameworkElement.Style="{StaticResource ConnectToServerButton}">
+        <ButtonBase.Command>
+          <Binding>
+            <Ctor xmlns="https://github.com/icsharpcode/ILSpy">CancelClick</Ctor>
+          </Binding>
+        </ButtonBase.Command>
+      </Button>
+    </StackPanel>
+  </Grid>
+</UserControl>

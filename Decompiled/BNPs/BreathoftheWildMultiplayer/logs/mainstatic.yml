@@ -1,0 +1,204 @@
+LocationMarker:
+  -254170-611:
+    Icon: CheckPoint
+    MessageID: HyruleCastle
+    Priority: 0
+    SaveFlag: Location_HyruleCastle
+    Translate: {X: -254.0, Y: 169.781006, Z: -611.367004}
+  '-38362002878':
+    Icon: ShopBougu
+    Priority: 1
+    SaveFlag: Location_Gerudo
+    Translate: {X: -3836.80151, Y: 200.0, Z: 2877.07007}
+  '1234123461':
+    Icon: Castle
+    MessageID: Jugador1
+    Priority: 1
+    SaveFlag: Location_Jugador1
+    Translate: {X: 12340.5, Y: 2345.5, Z: 1}
+  '12341234610':
+    Icon: Castle
+    MessageID: Jugador10
+    Priority: 1
+    SaveFlag: Location_Jugador10
+    Translate: {X: 12340.5, Y: 2345.5, Z: 10}
+  '12341234611':
+    Icon: Castle
+    MessageID: Jugador11
+    Priority: 1
+    SaveFlag: Location_Jugador11
+    Translate: {X: 12340.5, Y: 2345.5, Z: 11}
+  '12341234612':
+    Icon: Castle
+    MessageID: Jugador12
+    Priority: 1
+    SaveFlag: Location_Jugador12
+    Translate: {X: 12340.5, Y: 2345.5, Z: 12}
+  '12341234613':
+    Icon: Castle
+    MessageID: Jugador13
+    Priority: 1
+    SaveFlag: Location_Jugador13
+    Translate: {X: 12340.5, Y: 2345.5, Z: 13}
+  '12341234614':
+    Icon: Castle
+    MessageID: Jugador14
+    Priority: 1
+    SaveFlag: Location_Jugador14
+    Translate: {X: 12340.5, Y: 2345.5, Z: 14}
+  '12341234615':
+    Icon: Castle
+    MessageID: Jugador15
+    Priority: 1
+    SaveFlag: Location_Jugador15
+    Translate: {X: 12340.5, Y: 2345.5, Z: 15}
+  '12341234616':
+    Icon: Castle
+    MessageID: Jugador16
+    Priority: 1
+    SaveFlag: Location_Jugador16
+    Translate: {X: 12340.5, Y: 2345.5, Z: 16}
+  '12341234617':
+    Icon: Castle
+    MessageID: Jugador17
+    Priority: 1
+    SaveFlag: Location_Jugador17
+    Translate: {X: 12340.5, Y: 2345.5, Z: 17}
+  '12341234618':
+    Icon: Castle
+    MessageID: Jugador18
+    Priority: 1
+    SaveFlag: Location_Jugador18
+    Translate: {X: 12340.5, Y: 2345.5, Z: 18}
+  '12341234619':
+    Icon: Castle
+    MessageID: Jugador19
+    Priority: 1
+    SaveFlag: Location_Jugador19
+    Translate: {X: 12340.5, Y: 2345.5, Z: 19}
+  '1234123462':
+    Icon: Castle
+    MessageID: Jugador2
+    Priority: 1
+    SaveFlag: Location_Jugador2
+    Translate: {X: 12340.5, Y: 2345.5, Z: 2}
+  '12341234620':
+    Icon: Castle
+    MessageID: Jugador20
+    Priority: 1
+    SaveFlag: Location_Jugador20
+    Translate: {X: 12340.5, Y: 2345.5, Z: 20}
+  '12341234621':
+    Icon: Castle
+    MessageID: Jugador21
+    Priority: 1
+    SaveFlag: Location_Jugador21
+    Translate: {X: 12340.5, Y: 2345.5, Z: 21}
+  '12341234622':
+    Icon: Castle
+    MessageID: Jugador22
+    Priority: 1
+    SaveFlag: Location_Jugador22
+    Translate: {X: 12340.5, Y: 2345.5, Z: 22}
+  '12341234623':
+    Icon: Castle
+    MessageID: Jugador23
+    Priority: 1
+    SaveFlag: Location_Jugador23
+    Translate: {X: 12340.5, Y: 2345.5, Z: 23}
+  '12341234624':
+    Icon: Castle
+    MessageID: Jugador24
+    Priority: 1
+    SaveFlag: Location_Jugador24
+    Translate: {X: 12340.5, Y: 2345.5, Z: 24}
+  '12341234625':
+    Icon: Castle
+    MessageID: Jugador25
+    Priority: 1
+    SaveFlag: Location_Jugador25
+    Translate: {X: 12340.5, Y: 2345.5, Z: 25}
+  '12341234626':
+    Icon: Castle
+    MessageID: Jugador26
+    Priority: 1
+    SaveFlag: Location_Jugador26
+    Translate: {X: 12340.5, Y: 2345.5, Z: 26}
+  '12341234627':
+    Icon: Castle
+    MessageID: Jugador27
+    Priority: 1
+    SaveFlag: Location_Jugador27
+    Translate: {X: 12340.5, Y: 2345.5, Z: 27}
+  '12341234628':
+    Icon: Castle
+    MessageID: Jugador28
+    Priority: 1
+    SaveFlag: Location_Jugador28
+    Translate: {X: 12340.5, Y: 2345.5, Z: 28}
+  '12341234629':
+    Icon: Castle
+    MessageID: Jugador29
+    Priority: 1
+    SaveFlag: Location_Jugador29
+    Translate: {X: 12340.5, Y: 2345.5, Z: 29}
+  '1234123463':
+    Icon: Castle
+    MessageID: Jugador3
+    Priority: 1
+    SaveFlag: Location_Jugador3
+    Translate: {X: 12340.5, Y: 2345.5, Z: 3}
+  '12341234630':
+    Icon: Castle
+    MessageID: Jugador30
+    Priority: 1
+    SaveFlag: Location_Jugador30
+    Translate: {X: 12340.5, Y: 2345.5, Z: 30}
+  '12341234631':
+    Icon: Castle
+    MessageID: Jugador31
+    Priority: 1
+    SaveFlag: Location_Jugador31
+    Translate: {X: 12340.5, Y: 2345.5, Z: 31}
+  '12341234632':
+    Icon: Castle
+    MessageID: Jugador32
+    Priority: 1
+    SaveFlag: Location_Jugador32
+    Translate: {X: 12340.5, Y: 2345.5, Z: 32}
+  '1234123464':
+    Icon: Castle
+    MessageID: Jugador4
+    Priority: 1
+    SaveFlag: Location_Jugador4
+    Translate: {X: 12340.5, Y: 2345.5, Z: 4}
+  '1234123465':
+    Icon: Castle
+    MessageID: Jugador5
+    Priority: 1
+    SaveFlag: Location_Jugador5
+    Translate: {X: 12340.5, Y: 2345.5, Z: 5}
+  '1234123466':
+    Icon: Castle
+    MessageID: Jugador6
+    Priority: 1
+    SaveFlag: Location_Jugador6
+    Translate: {X: 12340.5, Y: 2345.5, Z: 6}
+  '1234123467':
+    Icon: Castle
+    MessageID: Jugador7
+    Priority: 1
+    SaveFlag: Location_Jugador7
+    Translate: {X: 12340.5, Y: 2345.5, Z: 7}
+  '1234123468':
+    Icon: Castle
+    MessageID: Jugador8
+    Priority: 1
+    SaveFlag: Location_Jugador8
+    Translate: {X: 12340.5, Y: 2345.5, Z: 8}
+  '1234123469':
+    Icon: Castle
+    MessageID: Jugador9
+    Priority: 1
+    SaveFlag: Location_Jugador9
+    Translate: {X: 12340.5, Y: 2345.5, Z: 9}

@@ -1,0 +1,14 @@
+{
+  "name": "BOTW Multiplayer - Classic",
+  "image": "",
+  "url": "",
+  "desc": "Skin pack for Breath of the Wild Multiplayer - Link skins",
+  "version": "1.0.0",
+  "options": {},
+  "depends": [],
+  "showCompare": false,
+  "showConvert": false,
+  "platform": "wiiu",
+  "priority": 100,
+  "id": "Qk9UVyBNdWx0aXBsYXllciAtIENsYXNzaWM9PTEuMC4w"
+}

@@ -1,0 +1,371 @@
+{
+  "USen": {
+    "LayoutMsg/WolfLinkHeartGauge_00.msyt": {
+      "T_Name_00": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador1_Name"
+            }
+          }
+        ]
+      }
+    },
+    "ActorType/NPC.msyt": {
+      "Jugador10_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador10_Name"
+            }
+          }
+        ]
+      },
+      "Jugador11_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador11_Name"
+            }
+          }
+        ]
+      },
+      "Jugador12_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador12_Name"
+            }
+          }
+        ]
+      },
+      "Jugador13_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador13_Name"
+            }
+          }
+        ]
+      },
+      "Jugador14_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador14_Name"
+            }
+          }
+        ]
+      },
+      "Jugador15_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador15_Name"
+            }
+          }
+        ]
+      },
+      "Jugador16_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador16_Name"
+            }
+          }
+        ]
+      },
+      "Jugador17_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador17_Name"
+            }
+          }
+        ]
+      },
+      "Jugador18_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador18_Name"
+            }
+          }
+        ]
+      },
+      "Jugador19_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador19_Name"
+            }
+          }
+        ]
+      },
+      "Jugador1_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador1_Name"
+            }
+          }
+        ]
+      },
+      "Jugador20_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador20_Name"
+            }
+          }
+        ]
+      },
+      "Jugador21_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador21_Name"
+            }
+          }
+        ]
+      },
+      "Jugador22_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador22_Name"
+            }
+          }
+        ]
+      },
+      "Jugador23_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador23_Name"
+            }
+          }
+        ]
+      },
+      "Jugador24_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador24_Name"
+            }
+          }
+        ]
+      },
+      "Jugador25_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador25_Name"
+            }
+          }
+        ]
+      },
+      "Jugador26_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador26_Name"
+            }
+          }
+        ]
+      },
+      "Jugador27_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador27_Name"
+            }
+          }
+        ]
+      },
+      "Jugador28_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador28_Name"
+            }
+          }
+        ]
+      },
+      "Jugador29_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador29_Name"
+            }
+          }
+        ]
+      },
+      "Jugador2_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador2_Name"
+            }
+          }
+        ]
+      },
+      "Jugador30_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador30_Name"
+            }
+          }
+        ]
+      },
+      "Jugador31_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador31_Name"
+            }
+          }
+        ]
+      },
+      "Jugador32_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador32_Name"
+            }
+          }
+        ]
+      },
+      "Jugador3_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador3_Name"
+            }
+          }
+        ]
+      },
+      "Jugador4_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador4_Name"
+            }
+          }
+        ]
+      },
+      "Jugador5_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador5_Name"
+            }
+          }
+        ]
+      },
+      "Jugador6_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador6_Name"
+            }
+          }
+        ]
+      },
+      "Jugador7_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador7_Name"
+            }
+          }
+        ]
+      },
+      "Jugador8_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador8_Name"
+            }
+          }
+        ]
+      },
+      "Jugador9_Name": {
+        "contents": [
+          {
+            "control": {
+              "kind": "variable",
+              "variable_kind": 1,
+              "name": "Jugador9_Name"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

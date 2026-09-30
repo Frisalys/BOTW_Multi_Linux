@@ -1,0 +1,693 @@
+'1317827373':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador30
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador30
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 14
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'1358595701':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador24
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador24
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 8
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'1469530732':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador20
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador20
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 4
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'1498204766':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador28
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador28
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 12
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'1733288170':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador9
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador9
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 9
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'1771333848':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador1
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador1
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 1
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'1861856449':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador5
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador5
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 5
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'1918998941':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador18
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador18
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 2
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'196944185':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador11
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador11
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 11
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'2077742518':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador14
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador14
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 14
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'2092569007':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador10
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador10
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 10
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'215016736':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador15
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador15
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 15
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'2163723757':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador7
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador7
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 7
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'2275019252':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador3
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador3
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 2
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'2461298819':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador12
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador12
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 12
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'2514072730':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador16
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador16
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 16
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'2692878849':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador32
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador32
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 16
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'273207420':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador8
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador8
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 8
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'3113820992':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador22
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador22
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 6
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'3203721049':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador26
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador26
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 10
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'3388200911':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador27
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador27
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 11
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'3466466262':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador23
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador23
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 7
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'3806233612':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador17
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador17
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 17
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'3853729813':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador13
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador13
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 13
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'4036835682':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador2
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador2
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 2
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'4159765883':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador6
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador6
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 6
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'436116567':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador4
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador4
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 4
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'546337530':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador21
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador21
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 5
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'670938851':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador25
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador25
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 9
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'776731336':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador29
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador29
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 13
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'90614027':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador19
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador19
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 3
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'922983147':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: JugadorTestModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: JugadorTest
+  instSize: 950000
+  mainModel: BaseHead
+  name: JugadorTest
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 2
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit
+'965428155':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1ModelNameLongForASpecificReason
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador31
+  instSize: 950000
+  mainModel: BaseHead
+  name: Jugador31
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: GameROMPlayer
+  sortKey: 15
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  xlink: Player
+  yLimitAlgorithm: NoLimit

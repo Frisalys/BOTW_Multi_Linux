@@ -1,0 +1,236 @@
+'1466019802':
+  aabbMax: {X: 0.246321,Y: 0.616083,Z: 0.246321}
+  aabbMin: {X: -0.244384,Y: 0.0,Z: -0.246321}
+  addColorA: 1.0
+  addColorB: 0.0
+  addColorG: 0.0
+  addColorR: 0.0
+  attackPower: 12
+  bfres: Item_RemoteBombCube
+  boundingForTraverse: 0.616083
+  bugMask: 2
+  elink: Bomb
+  generalLife: 1
+  instSize: 55828
+  itemBuyingPrice: -1
+  itemCreatingPrice: -1
+  itemSaleRevivalCount: -1
+  itemSellingPrice: -1
+  itemStainColor: -1
+  itemUseIconActorName: 
+  mainModel: Item_RemoteBombCube
+  name: CustomRemoteBombCube
+  profile: PlayerItem
+  rigidBodyCenterY: 0.2
+  slink: CustomRemoteBombCube
+  sortKey: 6
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag0fee9a49: 267295305,tag3d2fc55b: 1026540891,tagb51794dc: !u 0xB51794DC,tagf3a5f416: !u 0xF3A5F416,tagfd964809: !u 0xFD964809,tagffb4932f: !u 0xFFB4932F}
+  xlink: Weapon
+  yLimitAlgorithm: NoLimit
+'168917005':
+  aabbMax: {X: 0.246321,Y: 0.616083,Z: 0.246321}
+  aabbMin: {X: -0.244384,Y: 0.0,Z: -0.246321}
+  addColorA: 1.0
+  addColorB: 0.0
+  addColorG: 0.0
+  addColorR: 0.0
+  attackPower: 12
+  bfres: Item_RemoteBomb
+  boundingForTraverse: 0.616083
+  bugMask: 2
+  elink: Bomb
+  generalLife: 1
+  instSize: 55828
+  itemBuyingPrice: -1
+  itemCreatingPrice: -1
+  itemSaleRevivalCount: -1
+  itemSellingPrice: -1
+  itemStainColor: -1
+  itemUseIconActorName: 
+  mainModel: Item_RemoteBomb
+  name: CustomRemoteSphere
+  profile: PlayerItem
+  rigidBodyCenterY: 0.25
+  slink: CustomRemoteSphere
+  sortKey: 3
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag0fee9a49: 267295305,tag3d2fc55b: 1026540891,tagb51794dc: !u 0xB51794DC,tagf3a5f416: !u 0xF3A5F416,tagfd964809: !u 0xFD964809,tagffb4932f: !u 0xFFB4932F}
+  xlink: Weapon
+  yLimitAlgorithm: NoLimit
+'1771333848':
+  aabbMax: {X: 0.266819,Y: 1.57504,Z: 0.211145}
+  aabbMin: {X: -0.271196,Y: 0.000065,Z: -0.422099}
+  bfres: Jugador1
+  boundingForTraverse: 1.574975
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador1
+  instSize: 350000
+  mainModel: Jugador1
+  name: Jugador1
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: Npc
+  sortKey: 1
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tag84f40ec6: !u 0x84F40EC6,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  yLimitAlgorithm: NoLimit
+'1947252362':
+  aabbMax: {X: 0.246321,Y: 0.616083,Z: 0.246321}
+  aabbMin: {X: -0.244384,Y: 0.0,Z: -0.246321}
+  addColorA: 1.0
+  addColorB: 0.0
+  addColorG: 0.0
+  addColorR: 0.0
+  attackPower: 24
+  bfres: Item_RemoteBomb
+  boundingForTraverse: 0.616083
+  bugMask: 2
+  elink: Bomb
+  generalLife: 1
+  instSize: 55828
+  itemBuyingPrice: -1
+  itemCreatingPrice: -1
+  itemSaleRevivalCount: -1
+  itemSellingPrice: -1
+  itemStainColor: -1
+  itemUseIconActorName: 
+  mainModel: Item_RemoteBomb
+  name: CustomRemoteBomb2
+  profile: PlayerItem
+  rigidBodyCenterY: 0.25
+  slink: CustomRemoteBomb2
+  sortKey: 5
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag0fee9a49: 267295305,tag3d2fc55b: 1026540891,tagb51794dc: !u 0xB51794DC,tagf3a5f416: !u 0xF3A5F416,tagfd964809: !u 0xFD964809,tagffb4932f: !u 0xFFB4932F}
+  xlink: Weapon
+  yLimitAlgorithm: NoLimit
+'2065342498': {rigidBodyCenterY: 0.2}
+'2089084008':
+  aabbMax: {X: 0.246321,Y: 0.616083,Z: 0.246321}
+  aabbMin: {X: -0.244384,Y: 0.0,Z: -0.246321}
+  addColorA: 1.0
+  addColorB: 0.0
+  addColorG: 0.0
+  addColorR: 0.0
+  attackPower: 24
+  bfres: Item_RemoteBombCube
+  boundingForTraverse: 0.616083
+  bugMask: 2
+  elink: Bomb
+  generalLife: 1
+  instSize: 55828
+  itemBuyingPrice: -1
+  itemCreatingPrice: -1
+  itemSaleRevivalCount: -1
+  itemSellingPrice: -1
+  itemStainColor: -1
+  itemUseIconActorName: 
+  mainModel: Item_RemoteBombCube
+  name: CustomRemoteBombCube2
+  profile: PlayerItem
+  rigidBodyCenterY: 0.2
+  slink: CustomRemoteBombCube2
+  sortKey: 7
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag0fee9a49: 267295305,tag3d2fc55b: 1026540891,tagb51794dc: !u 0xB51794DC,tagf3a5f416: !u 0xF3A5F416,tagfd964809: !u 0xFD964809,tagffb4932f: !u 0xFFB4932F}
+  xlink: Weapon
+  yLimitAlgorithm: NoLimit
+'2275019252':
+  aabbMax: {X: 0.34558,Y: 2.28967,Z: 0.236055}
+  aabbMin: {X: -0.39237,Y: -0.000772,Z: -0.631988}
+  bfres: Jugador3
+  boundingForTraverse: 2.290442
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador3
+  instSize: 450000
+  mainModel: Jugador3
+  name: Jugador3
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: Npc
+  sortKey: -11
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tag84f40ec6: !u 0x84F40EC6,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  yLimitAlgorithm: NoLimit
+'2920177815':
+  aabbMax: {X: 0.246321,Y: 0.616083,Z: 0.246321}
+  aabbMin: {X: -0.244384,Y: 0.0,Z: -0.246321}
+  addColorA: 1.0
+  addColorB: 0.0
+  addColorG: 0.0
+  addColorR: 0.0
+  attackPower: 12
+  bfres: Item_RemoteBomb
+  boundingForTraverse: 0.616083
+  bugMask: 2
+  elink: Bomb
+  generalLife: 1
+  instSize: 55828
+  itemBuyingPrice: -1
+  itemCreatingPrice: -1
+  itemSaleRevivalCount: -1
+  itemSellingPrice: -1
+  itemStainColor: -1
+  itemUseIconActorName: 
+  mainModel: Item_RemoteBomb
+  name: CustomRemoteBomb
+  profile: PlayerItem
+  rigidBodyCenterY: 0.25
+  slink: CustomRemoteBomb
+  sortKey: 4
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag0fee9a49: 267295305,tag3d2fc55b: 1026540891,tagb51794dc: !u 0xB51794DC,tagf3a5f416: !u 0xF3A5F416,tagfd964809: !u 0xFD964809,tagffb4932f: !u 0xFFB4932F}
+  xlink: Weapon
+  yLimitAlgorithm: NoLimit
+'4036835682':
+  aabbMax: {X: 0.439899,Y: 2.2871,Z: 0.476399}
+  aabbMin: {X: -0.501442,Y: -0.005872,Z: -0.682263}
+  bfres: Jugador2
+  boundingForTraverse: 2.292972
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador2
+  instSize: 350000
+  mainModel: Jugador2
+  name: Jugador2
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: Npc
+  sortKey: -18
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tag84f40ec6: !u 0x84F40EC6,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  yLimitAlgorithm: NoLimit
+'436116567':
+  aabbMax: {X: 1.78854,Y: 3.22151,Z: 1.13211}
+  aabbMin: {X: -1.77892,Y: 0.000863,Z: -1.05346}
+  bfres: Jugador4
+  boundingForTraverse: 3.220647
+  bugMask: 2
+  cursorOffsetY: 0.5
+  elink: Jugador4
+  instSize: 350000
+  mainModel: Jugador4
+  name: Jugador4
+  profile: NPC
+  rigidBodyCenterY: 1.1
+  slink: Npc
+  sortKey: -14
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: 
+  tags: {tag51c0c6bb: 1371588283,tag84f40ec6: !u 0x84F40EC6,tagd75d5f92: !u 0xD75D5F92,tagfd5643b5: !u 0xFD5643B5}
+  traverseDist: 10000.0
+  yLimitAlgorithm: NoLimit

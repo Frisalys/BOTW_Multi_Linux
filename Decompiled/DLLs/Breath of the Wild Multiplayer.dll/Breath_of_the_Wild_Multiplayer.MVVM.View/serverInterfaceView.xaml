@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="Breath_of_the_Wild_Multiplayer.MVVM.View.serverInterfaceView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:Breath_of_the_Wild_Multiplayer.MVVM.View" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="0.6*" />
+      <ColumnDefinition Width="0.4*" />
+      <ColumnDefinition Width="70" />
+    </Grid.ColumnDefinitions>
+    <Border Background="#99000000" FrameworkElement.Margin="10" Grid.Column="1" CornerRadius="10" />
+    <Rectangle Shape.Fill="#CC1C1C1C" Grid.Column="2" FrameworkElement.Margin="0,-0.175,0,-0.3" />
+    <Path Shape.Stroke="#55FFFFFF" Grid.ColumnSpan="2" Shape.StrokeThickness="2" Panel.ZIndex="1">
+      <Path.Data>
+        <GeometryGroup>
+          <LineGeometry StartPoint="0,1" EndPoint="1105,1" />
+          <LineGeometry StartPoint="1105,1" EndPoint="1115,12" />
+          <LineGeometry StartPoint="1115,12" EndPoint="1115,486" />
+          <LineGeometry StartPoint="1115,486" EndPoint="1105,496" />
+          <LineGeometry StartPoint="0,496" EndPoint="1105,496" />
+        </GeometryGroup>
+      </Path.Data>
+    </Path>
+    <Polygon Shape.Fill="#55FFFFFF" Grid.Column="1" Points="0,0 5,0 5,5" Panel.ZIndex="1" FrameworkElement.HorizontalAlignment="Right" />
+    <Polygon Shape.Fill="#55FFFFFF" Grid.Column="1" Points="0,0 5,0 5,5" Panel.ZIndex="1" FrameworkElement.Margin="0,0,5,0" FrameworkElement.HorizontalAlignment="Right" />
+    <Polygon Shape.Fill="#55FFFFFF" Grid.Column="1" Points="0,0 5,0 5,5" Panel.ZIndex="1" FrameworkElement.Margin="0,5,0,0" FrameworkElement.HorizontalAlignment="Right" />
+    <Polygon Shape.Fill="#55FFFFFF" Grid.Column="1" Points="0,0 -5,0 0,-5" Panel.ZIndex="1" FrameworkElement.VerticalAlignment="Bottom" FrameworkElement.Margin="0,0,0,5" FrameworkElement.HorizontalAlignment="Right" />
+    <Polygon Shape.Fill="#55FFFFFF" Grid.Column="1" Points="0,0 -5,0 0,-5" Panel.ZIndex="1" FrameworkElement.VerticalAlignment="Bottom" FrameworkElement.Margin="0,0,5,0" FrameworkElement.HorizontalAlignment="Right" />
+    <Polygon Shape.Fill="#55FFFFFF" Grid.Column="1" Points="0,0 -5,0 0,-5" Panel.ZIndex="1" FrameworkElement.VerticalAlignment="Bottom" FrameworkElement.HorizontalAlignment="Right" />
+    <StackPanel>
+      <TextBox FrameworkElement.Style="{StaticResource modifiableTextBox}" Text="alskdjawsd">
+        <FrameworkElement.Tag>
+          <system:String xmlns:system="clr-namespace:System;assembly=System.Private.CoreLib">Player 1</system:String>
+        </FrameworkElement.Tag>
+      </TextBox>
+      <TextBox FrameworkElement.Style="{StaticResource modifiableTextBox}" Text="alskdjawsd">
+        <FrameworkElement.Tag>
+          <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Player 2</String>
+        </FrameworkElement.Tag>
+      </TextBox>
+      <TextBox FrameworkElement.Style="{StaticResource modifiableTextBox}" Text="alskdjawsd">
+        <FrameworkElement.Tag>
+          <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Player 3</String>
+        </FrameworkElement.Tag>
+      </TextBox>
+      <TextBox FrameworkElement.Style="{StaticResource modifiableTextBox}" Text="alskdjawsd">
+        <FrameworkElement.Tag>
+          <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Player 4</String>
+        </FrameworkElement.Tag>
+      </TextBox>
+    </StackPanel>
+  </Grid>
+</UserControl>

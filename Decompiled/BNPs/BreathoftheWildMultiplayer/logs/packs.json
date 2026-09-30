@@ -1,0 +1,10 @@
+{
+  "Actor/Pack/CustomRemoteSphere.bactorpack": "content\\Actor\\Pack\\CustomRemoteSphere.sbactorpack",
+  "Actor/Pack/CustomRemoteBomb.bactorpack": "content\\Actor\\Pack\\CustomRemoteBomb.sbactorpack",
+  "Actor/Pack/CustomRemoteBombCube.bactorpack": "content\\Actor\\Pack\\CustomRemoteBombCube.sbactorpack",
+  "Pack/TitleBG.pack": "content\\Pack\\TitleBG.pack",
+  "Actor/Pack/CustomRemoteBomb2.bactorpack": "content\\Actor\\Pack\\CustomRemoteBomb2.sbactorpack",
+  "Actor/Pack/GameRomCamera.bactorpack": "content\\Actor\\Pack\\GameRomCamera.sbactorpack",
+  "Actor/Pack/CustomRemoteBombCube2.bactorpack": "content\\Actor\\Pack\\CustomRemoteBombCube2.sbactorpack",
+  "Pack/Bootup.pack": "content\\Pack\\Bootup.pack"
+}

@@ -1,0 +1,14 @@
+E-6_Static:
+  Objs:
+    add:
+    - HashId: !u 0xfffd4860
+      SRTHash: 0
+      Scale: 4.5
+      Translate: [-885.676758, 588.46582, 1765.28833]
+      UnitConfigName: RailLift
+    del: []
+    mod: {}
+  Rails:
+    add: []
+    del: []
+    mod: {}

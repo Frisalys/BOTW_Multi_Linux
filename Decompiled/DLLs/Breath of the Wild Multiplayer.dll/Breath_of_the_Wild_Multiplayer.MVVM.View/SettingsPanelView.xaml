@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="Breath_of_the_Wild_Multiplayer.MVVM.View.SettingsPanelView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:Breath_of_the_Wild_Multiplayer.MVVM.View" xmlns:main="clr-namespace:Breath_of_the_Wild_Multiplayer" xmlns:viewModel="clr-namespace:Breath_of_the_Wild_Multiplayer.MVVM.ViewModel" xmlns:properties="clr-namespace:Breath_of_the_Wild_Multiplayer.Properties" xmlns:customControls="clr-namespace:Breath_of_the_Wild_Multiplayer.CustomControls" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <Grid>
+    <FrameworkElement.DataContext>
+      <viewModel:SettingsPanelModel />
+    </FrameworkElement.DataContext>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="70" />
+      <ColumnDefinition Width="500" />
+      <ColumnDefinition />
+    </Grid.ColumnDefinitions>
+    <Rectangle Shape.Fill="#CC1C1C1C" FrameworkElement.Margin="0,-0.175,0,-0.3" />
+    <Path Shape.Stroke="#55FFFFFF" Grid.Column="1" Grid.ColumnSpan="2" Shape.StrokeThickness="2" Panel.ZIndex="1">
+      <Path.Data>
+        <GeometryGroup>
+          <LineGeometry StartPoint="12,1" EndPoint="2000,1" />
+          <LineGeometry StartPoint="12,1" EndPoint="1,12" />
+          <LineGeometry StartPoint="1,12" EndPoint="1,486" />
+          <LineGeometry StartPoint="1,486" EndPoint="12,496" />
+          <LineGeometry StartPoint="12,496" EndPoint="2000,496" />
+        </GeometryGroup>
+      </Path.Data>
+    </Path>
+    <Polygon Shape.Fill="#55FFFFFF" Points="0,0 5,0 0,5" Grid.Column="1" Panel.ZIndex="1" />
+    <Polygon Shape.Fill="#55FFFFFF" Points="0,0 5,0 0,5" Grid.Column="1" Panel.ZIndex="1" FrameworkElement.Margin="5,0,0,0" />
+    <Polygon Shape.Fill="#55FFFFFF" Points="0,0 5,0 0,5" Grid.Column="1" Panel.ZIndex="1" FrameworkElement.Margin="0,5,0,0" />
+    <Polygon Shape.Fill="#55FFFFFF" Points="0,0 0,5 5,5" Grid.Column="1" Panel.ZIndex="1" FrameworkElement.VerticalAlignment="Bottom" FrameworkElement.Margin="0,0,0,5" />
+    <Polygon Shape.Fill="#55FFFFFF" Points="0,0 0,5 5,5" Grid.Column="1" Panel.ZIndex="1" FrameworkElement.VerticalAlignment="Bottom" FrameworkElement.Margin="5,0,0,0" />
+    <Polygon Shape.Fill="#55FFFFFF" Points="0,0 0,5 5,5" Grid.Column="1" Panel.ZIndex="1" FrameworkElement.VerticalAlignment="Bottom" />
+    <Grid Column="1">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="0.10*" />
+        <RowDefinition Height="0.35*" />
+      </Grid.RowDefinitions>
+      <Image Source="{StaticResource White_Logo}" FrameworkElement.Margin="5">
+        <UIElement.Effect>
+          <DropShadowEffect ShadowDepth="0" Color="Black" Opacity="1" BlurRadius="20" />
+        </UIElement.Effect>
+      </Image>
+      <StackPanel Grid.Row="1" FrameworkElement.Margin="50,0,50,0">
+        <Label ContentControl.Content="Mod Created by:" FrameworkElement.Style="{StaticResource creditsLabel}" Control.FontWeight="Bold" Control.FontSize="24" FrameworkElement.HorizontalAlignment="Center" FrameworkElement.Margin="0,0,0,5" />
+        <Label FrameworkElement.Style="{StaticResource creditsLabel}">
+          <FrameworkElement.Tag>
+            <system:String xmlns:system="clr-namespace:System;assembly=System.Private.CoreLib">Bird</system:String>
+          </FrameworkElement.Tag>
+          <Hyperlink NavigateUri="https://www.youtube.com/@PointCrow" TextElement.Foreground="#FFFFFFFF" Inline.TextDecorations="">PointCrow<!--Unknown connection ID: 1--></Hyperlink>
+        </Label>
+        <Label FrameworkElement.Style="{StaticResource creditsLabel}">
+          <FrameworkElement.Tag>
+            <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Lead Developer</String>
+          </FrameworkElement.Tag>
+          <Hyperlink NavigateUri="https://www.youtube.com/channel/UCzoBoNXZRUQ0BjJ1kWN7jGw" TextElement.Foreground="#FFFFFFFF" Inline.TextDecorations="">AlexMangue<!--Unknown connection ID: 2--></Hyperlink>
+        </Label>
+        <Label FrameworkElement.Style="{StaticResource creditsLabel}">
+          <FrameworkElement.Tag>
+            <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Developer</String>
+          </FrameworkElement.Tag>
+          <Hyperlink NavigateUri="https://www.youtube.com/@PlanetCoop" TextElement.Foreground="#FFFFFFFF" Inline.TextDecorations="">Sweet<!--Unknown connection ID: 3--></Hyperlink>
+        </Label>
+        <Label FrameworkElement.Style="{StaticResource creditsLabel}">
+          <FrameworkElement.Tag>
+            <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Developer</String>
+          </FrameworkElement.Tag>
+          <Hyperlink NavigateUri="https://www.youtube.com/channel/UCb-2srs8mpJfxjfAuNnNS5g" TextElement.Foreground="#FFFFFFFF" Inline.TextDecorations="">Ahrdoc<!--Unknown connection ID: 4--></Hyperlink>
+        </Label>
+        <Label ContentControl.Content="Contributions from:" FrameworkElement.Style="{StaticResource creditsLabel}" Control.FontWeight="Bold" Control.FontSize="24" FrameworkElement.HorizontalAlignment="Center" FrameworkElement.Margin="0,0,0,5" />
+        <Label FrameworkElement.Style="{StaticResource creditsLabel}">
+          <FrameworkElement.Tag>
+            <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Mipha's Supervisor / Modelling</String>
+          </FrameworkElement.Tag>
+          <Hyperlink NavigateUri="https://gamebanana.com/members/1676592" TextElement.Foreground="#FFFFFFFF" Inline.TextDecorations="">Peregrine<!--Unknown connection ID: 5--></Hyperlink>
+        </Label>
+        <Label FrameworkElement.Style="{StaticResource creditsLabel}">
+          <FrameworkElement.Tag>
+            <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Reverse engineering</String>
+          </FrameworkElement.Tag>
+          <Hyperlink NavigateUri="https://gamebanana.com/members/1741226" TextElement.Foreground="#FFFFFFFF" Inline.TextDecorations="">GreenLord<!--Unknown connection ID: 6--></Hyperlink>
+        </Label>
+        <Label FrameworkElement.Style="{StaticResource creditsLabel}">
+          <FrameworkElement.Tag>
+            <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Technical Consulting</String>
+          </FrameworkElement.Tag>
+          <Hyperlink NavigateUri="https://gamebanana.com/members/1676542" TextElement.Foreground="#FFFFFFFF" Inline.TextDecorations="">Waikuteru<!--Unknown connection ID: 7--></Hyperlink>
+        </Label>
+        <Label FrameworkElement.Style="{StaticResource creditsLabel}">
+          <FrameworkElement.Tag>
+            <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Technical Consulting</String>
+          </FrameworkElement.Tag>
+          <Hyperlink NavigateUri="https://gamebanana.com/members/1595627" TextElement.Foreground="#FFFFFFFF" Inline.TextDecorations="">CEObrainz<!--Unknown connection ID: 8--></Hyperlink>
+        </Label>
+        <Label FrameworkElement.Style="{StaticResource creditsLabel}">
+          <FrameworkElement.Tag>
+            <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Modelling</String>
+          </FrameworkElement.Tag>
+          <Hyperlink NavigateUri="https://gamebanana.com/members/1624901" TextElement.Foreground="#FFFFFFFF" Inline.TextDecorations="">LynardKiller<!--Unknown connection ID: 9--></Hyperlink>
+        </Label>
+      </StackPanel>
+    </Grid>
+    <Grid Column="2">
+      <Grid.RowDefinitions>
+        <RowDefinition />
+        <RowDefinition />
+        <RowDefinition Height="*" />
+        <RowDefinition />
+        <RowDefinition />
+      </Grid.RowDefinitions>
+      <TextBox FrameworkElement.Style="{StaticResource modifiableTextBox}" Control.BorderBrush="#FFC4C6CB" MaxLength="18">
+        <TextBox.Text>
+          <Binding Source="{Static properties:Settings.Default}" Path="playerName" />
+        </TextBox.Text>
+        <FrameworkElement.Tag>
+          <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Player Name</String>
+        </FrameworkElement.Tag>
+        <!--Unknown connection ID: 10-->
+      </TextBox>
+      <customControls:optionsLabel Grid.Row="1" FrameworkElement.Style="{StaticResource optionsCustomLabel}">
+        <ContentControl.Content>
+          <Binding Source="{Static properties:Settings.Default}" Path="background" />
+        </ContentControl.Content>
+        <customControls:optionsLabel.leftButton>
+          <Binding>
+            <Ctor xmlns="https://github.com/icsharpcode/ILSpy">backgroundLeftButton</Ctor>
+          </Binding>
+        </customControls:optionsLabel.leftButton>
+        <customControls:optionsLabel.rightButton>
+          <Binding>
+            <Ctor xmlns="https://github.com/icsharpcode/ILSpy">backgroundRightButton</Ctor>
+          </Binding>
+        </customControls:optionsLabel.rightButton>
+        <customControls:optionsLabel.movingLeft>
+          <Binding>
+            <Ctor xmlns="https://github.com/icsharpcode/ILSpy">backgroundMovingLeft</Ctor>
+          </Binding>
+        </customControls:optionsLabel.movingLeft>
+        <customControls:optionsLabel.movingRight>
+          <Binding>
+            <Ctor xmlns="https://github.com/icsharpcode/ILSpy">backgroundMovingRight</Ctor>
+          </Binding>
+        </customControls:optionsLabel.movingRight>
+        <FrameworkElement.Tag>
+          <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Background</String>
+        </FrameworkElement.Tag>
+      </customControls:optionsLabel>
+      <Button ContentControl.Content="Select settings.json" Grid.Row="2" FrameworkElement.Style="{StaticResource customButton}">
+        <ButtonBase.Command>
+          <Binding>
+            <Ctor xmlns="https://github.com/icsharpcode/ILSpy">bcmlButton</Ctor>
+          </Binding>
+        </ButtonBase.Command>
+        <FrameworkElement.Tag>
+          <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Launch settings</String>
+        </FrameworkElement.Tag>
+        <FrameworkElement.ToolTip>
+          <ToolTip>
+            <FrameworkElement.Style>
+              <Style>
+                <Style.TargetType>
+                  <x:TypeExtension>
+                    <Ctor xmlns="https://github.com/icsharpcode/ILSpy">ToolTip</Ctor>
+                  </x:TypeExtension>
+                </Style.TargetType>
+                <Setter Property="FrameworkElement.OverridesDefaultStyle" Value="True" />
+                <Setter Property="UIElement.Visibility" Value="Visible" />
+                <Setter Property="Control.Template">
+                  <Setter.Value>
+                    <ControlTemplate>
+                      <ControlTemplate.TargetType>
+                        <x:TypeExtension>
+                          <Ctor xmlns="https://github.com/icsharpcode/ILSpy">ToolTip</Ctor>
+                        </x:TypeExtension>
+                      </ControlTemplate.TargetType>
+                      <Border Background="#CC000000" CornerRadius="10">
+                        <Border FrameworkElement.Margin="2" CornerRadius="10" Background="#00FFFFFF" BorderThickness="2" BorderBrush="#FF626262">
+                          <Label Control.Foreground="#FFFFFFFF" Control.FontFamily="Roboto" Control.FontStyle="Italic">
+                            <ContentControl.Content>
+                              <Binding Source="{Static properties:Settings.Default}" Path="bcmlLocation" />
+                            </ContentControl.Content>
+                          </Label>
+                        </Border>
+                      </Border>
+                    </ControlTemplate>
+                  </Setter.Value>
+                </Setter>
+              </Style>
+            </FrameworkElement.Style>
+          </ToolTip>
+        </FrameworkElement.ToolTip>
+      </Button>
+      <Button ContentControl.Content="Restore" Grid.Row="3" FrameworkElement.Style="{StaticResource customButton}">
+        <ButtonBase.Command>
+          <Binding>
+            <Ctor xmlns="https://github.com/icsharpcode/ILSpy">restartSettings</Ctor>
+          </Binding>
+        </ButtonBase.Command>
+        <FrameworkElement.Tag>
+          <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Default settings</String>
+        </FrameworkElement.Tag>
+      </Button>
+      <Button ContentControl.Content="Join our community!" Grid.Row="4" FrameworkElement.Style="{StaticResource customButton}">
+        <ButtonBase.Command>
+          <Binding>
+            <Ctor xmlns="https://github.com/icsharpcode/ILSpy">discordButton</Ctor>
+          </Binding>
+        </ButtonBase.Command>
+        <FrameworkElement.Tag>
+          <String xmlns="clr-namespace:System;assembly=System.Private.CoreLib">Discord</String>
+        </FrameworkElement.Tag>
+      </Button>
+    </Grid>
+  </Grid>
+</UserControl>

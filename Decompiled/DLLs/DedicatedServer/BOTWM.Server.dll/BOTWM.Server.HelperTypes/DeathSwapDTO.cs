@@ -1,0 +1,10 @@
+using BOTWM.Server.DataTypes;
+
+namespace BOTWM.Server.HelperTypes;
+
+public class DeathSwapDTO
+{
+	public byte Phase;
+
+	public Vec3f Position = new Vec3f();
+}
